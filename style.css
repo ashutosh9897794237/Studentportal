@@ -1,0 +1,10 @@
+#title{
+    height: 76px;
+    background-color: black;
+    color: white;
+    gap: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
