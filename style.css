@@ -8,7 +8,7 @@
     justify-content: space-between;
 
 }
-#search{
+#input{
     width: 1226px;
     height: 40px;
     margin-bottom: 15px;
@@ -19,6 +19,8 @@ button{
     height: 40px;
     margin-bottom: 15px;
     margin-left: 20px;
+    background-color: black;
+    color: white;
 }
 table,th,td{
     border: 1px solid rgb(29, 27, 27);

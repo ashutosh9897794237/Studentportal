@@ -10,10 +10,15 @@ async function getData(url) {
         let tr = document.createElement('tr');
         console.log(element.image);
         tableBody.appendChild(tr);
-        tr.innerHTML = `<td>${element.id}</td><td style="height:70px" ><img src="${element.img_src}" style="width:25px">  ${element.first_name} ${element.last_name}</td> <td>${element.gender}</td> <td>$${element.class}</td> <td>$${element.marks}</td> <td>${element.passing}%</td> <td>MKT Cap : $${element.email}</td>`;
-
+        tr.innerHTML = `<td>${element.id}</td><td style="height:70px" ><img src="${element.img_src}" style="width:25px">  ${element.first_name} ${element.last_name}</td> <td>${element.gender}</td> <td>${element.class}</td> <td>${element.marks}</td> <td>${element.passing}</td> <td>${element.email}</td>`;
 
     });
 }
 
 getData(url);
+
+const first_name = [`first_name`];
+  first_name.sort((a,b) =>{
+    return a.localeCompare(b);
+  })
+  console.log(first_name);
